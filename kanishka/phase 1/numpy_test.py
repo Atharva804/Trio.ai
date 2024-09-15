@@ -16,7 +16,7 @@ np6 = np.full((10),4)
 print(np6)
 np7 = np.full((2,10),7)
 print(np7)
-my_list = [1,2,3,4,5]
+my_list = [1,2,3,4,5,6,7]
 np8 = np.array(my_list)
 print(np8)
 # slicing numpy arrays
@@ -27,3 +27,5 @@ print(np1[1:5])
 print(np1[3:])
 #return negative slices
 print(np1[])
+np9 = np.array(my_list)
+print(np9)
